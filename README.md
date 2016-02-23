@@ -5,12 +5,18 @@ available on Coursera.
 
 The objective of this project is to prepare a tidy data set from a large, 
 not-so-readable data set. The data linked to this project is a collection of
-measurements from the accelerometers and gyroscopes of a smartphone. The 
+measurements from the accelerometer and gyroscope of a smartphone. The 
 objective of collecting such data is to correlate those measurements and a 
 certain activity, such as walking, setting, standing, etc.
 
 This project contains a script that reads through the data and outputs the
-average of those measurements for each activity and each subject.
+average of part of those measurements for each activity and each subject.
+The measurements used here are the ones that represented the mean or the 
+standard variation of a signal measured by the smartphone’s sensors. The 
+complete list of variables is described on the `codebook.pdf` file.
+
+The complete description of the dataset used by this project is available 
+at [UCI Machine Learning Repository.](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 # Pre-requisites
 * You need to have [R installed on your computer.](https://www.r-project.org/)
